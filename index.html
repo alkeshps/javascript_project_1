@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div
+      class="w-full text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-screen h-auto"
+    >
+      <div class="container mx-auto">
+        <div class="w-full flex flex-col">
+          <h1 class="heading text-[48px] font-bold py-10 text-white">
+            Brand Names
+          </h1>
+          <div class="form flex justify-center items-center gap-0">
+            <input
+              type="text"
+              placeholder="Enter brand names here"
+              id="brandinput"
+              class="h-[40px] rounded-l-[10px] px-4 focus:outline-none"
+            />
+            <button
+              class="h-[40px] rounded-r-[10px] px-3 bg-fuchsia-950 text-white hover:bg-violet-900"
+              id="btn"
+            >
+              Add
+            </button>
+          </div>
+
+          <div class="listview mt-10 flex justify-center">
+            <ul id="brandlist"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
