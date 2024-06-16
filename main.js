@@ -123,3 +123,6 @@ addedList.addEventListener("click", removeBrandList);
 addedList.addEventListener("click", editBrandList);
 
 getLocalStorage();
+
+// git learning ongoing-task branch commit
+
