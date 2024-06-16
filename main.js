@@ -124,6 +124,5 @@ addedList.addEventListener("click", editBrandList);
 
 getLocalStorage();
 
-// git learning ongoing-task branch commit
-// git learning 2 files change
+// git learning pull request
 
