@@ -1,0 +1,16 @@
+@keyframes slideIn {
+  from {
+    transform: rotateX(60deg) translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0deg) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.slideOut {
+  transform: rotateX(60deg) translateY(-10px);
+  opacity: 0;
+  transition: 0.3s;
+}
